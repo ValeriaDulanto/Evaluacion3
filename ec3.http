@@ -1,0 +1,21 @@
+@server = URLRENDER
+####@api = {{server}}/api/ec3####
+
+################ Categorias: ################
+GET {{server}}/categorias
+###
+POST {{server}}/categorias
+Content-Type: application/json
+
+{"nombre": "Instrumentos de Cuerda"}
+################ Instrumentos: ################
+GET {{server}}/instrumentos
+###
+POST {{server}}/instrumentos
+Content-Type: application/json
+
+{"nombre": "Guitarra", "categoria": "https://ec-3.onrender.com/categorias/1"}
+###
+GET {{server}}/instrumentos/1/categoria
+###
+GET {{server}}/instrumentos?sort=nombre,desc
