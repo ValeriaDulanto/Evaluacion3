@@ -1,4 +1,4 @@
-@server = https://evaluacion3-kd6z.onrender.com
+@server = https://evaluacion3-8vod.onrender.com
 ####@api = {{server}}/api/ec3####
 
 ################ Categorias: ################
@@ -14,7 +14,7 @@ GET {{server}}/instrumentos
 POST {{server}}/instrumentos
 Content-Type: application/json
 
-{"nombre": "Guitarra", "categoria": "https://ec-3.onrender.com/categorias/1"}
+{"nombre": "Guitarra", "categoria": "https://evaluacion3-8vod.onrender.com/categorias/1"}
 ###
 GET {{server}}/instrumentos/1/categoria
 ###
