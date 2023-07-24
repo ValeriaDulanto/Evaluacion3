@@ -1,4 +1,4 @@
-@server = URLRENDER
+@server = https://evaluacion3-kd6z.onrender.com
 ####@api = {{server}}/api/ec3####
 
 ################ Categorias: ################
